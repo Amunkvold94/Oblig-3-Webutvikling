@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    font-size: 15px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.product {
+    background-color: #000000;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top; /* Add this line to align to the top */
+}
+* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color and a default font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header for better visibility */
+header {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the page title (h1) for better alignment and readability */
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Style the navigation links for better visibility */
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 28px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Style product containers for better spacing and layout */
+.product {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    width: calc(30% - 40px);
+}
+
+/* Style product images for a consistent size and border radius */
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style product titles for better visibility */
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Style product prices and descriptions */
+.product p {
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+/* Add hover effect to product containers for interactivity */
+.product:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Style the header and its contents */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Center the image horizontally */
+    background-color: #f70404; /* Optional: Add a background color for contrast */
+}
+
+.logo-container img {
+    max-width: 100%; /* Ensure the logo fits within the viewport width */
+    height: auto;
+    padding: 10px; /* Optional: Add padding for spacing */
+}
+.logo img {
+    max-width: 100%; /* Ensure the logo fits within the viewport width */
+}
+
+/* Style the icons container */
+.icons-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Style the cart and wishlist icons */
+.cart-icon, .wishlist-icon {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px; /* Adjust spacing between icons */
+}
+
+/* Add hover effect to icons */
+.cart-icon:hover, .wishlist-icon:hover {
+    color: #f067b2;
+    cursor: pointer;
+}
+
+/* Position the search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0px; /* Adjust spacing */
+}
+
+.search-box {
+    width: 70px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust spacing */
+}
+
+
+
+/* Add hover effect to the search button */
+.search-button:hover {
+    background-color: #f067b2;
+}
+
+/* Footer
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+/* Style the bottom section of the footer */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+* Style the icons */
+i.fab {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+/* Style the social media links */
+ul li a i.fab {
+    color: #3b5998; /* Facebook Blue */
+}
+
+ul li a i.fab.fa-twitter {
+    color: #1da1f2; /* Twitter Blue */
+}
+
+ul li a i.fab.fa-instagram {
+    color: #bc2a8d; /* Instagram Purple */
+}
+
+ul li a i.fab.fa-youtube {
+    color: #ff0000; /* YouTube Red */
+}
+
+
+
+/* Media query for smaller screens, such as mobile devices */
+@media (max-width: 768px) {
+    .product {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin: 10px auto; /* Center the product containers */
+    }
+}
+
